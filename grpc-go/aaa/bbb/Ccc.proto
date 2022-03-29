@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package aaa.bbb;
 
-option go_package="github.com/rainggo/test20220329/grpc-go/aaa/bbb";
+option go_package="github.com/rainggo/{{ repo }}/aaa/bbb/grpc-go/stubs";
 
 
 service Ccc {
